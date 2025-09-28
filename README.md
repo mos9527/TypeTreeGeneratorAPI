@@ -1,22 +1,10 @@
-# TypeTreeGenerator API
+# TypeTreeGeneratorAPIEx
 
-A simple project for offering a native API to extract typetrees from Unity assemblies.
-For this .net9 with AoT gets used in combination with a dedicated translation layer.
+This is a fork of [TypeTreeGeneratorAPI](https://github.com/UnityPy-Org/TypeTreeGeneratorAPI) with modifications.
 
-## TODO:
+You can consume the library via Python bindings or directly in .NET. 
 
-- python bindings
-- c++ bindings
-- documentation
-- tests
-- automated release workflow
-- credits
-
-## Planned:
-
-- Il2CPPInspector-Redux as additional backend for il2cpp
-- using TPK dumps instead of Unity's reference (especially due to this usage of the reference most likely violating the license)
-
+Do note that this package overrides the original package on PyPI i.e. `pip install TypeTreeGeneratorAPIEx` will also install this package as `TypeTreeGeneratorAPI`
 ## Test Locally
 ```bash
 dotnet restore

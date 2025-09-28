@@ -3,9 +3,9 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "TypeTreeGeneratorAPI"
-authors = [{ name = "Rudolf Kolbe", email = "rkolbe96@gmail.com" }]
-description = "A Unity extraction and patching package"
+name = "TypeTreeGeneratorAPIEx"
+authors = [{ name = "mos9527", email = "greats3an@gmail.com" }]
+description = "Mod builds of TypeTreeGeneratorAPI"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.7"
